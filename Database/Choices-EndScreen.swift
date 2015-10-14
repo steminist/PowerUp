@@ -33,7 +33,7 @@ class Choices_EndScreen: UIViewController {
         
         // Back Button of navigation controller hidden
         self.navigationItem.setHidesBackButton(true, animated:true);
-        
+        self.navigationItem.title = "Lessons Learned";
         // TextView borders and rounded corners
         conclusionText!.layer.borderWidth = 6
         conclusionText!.layer.borderColor = UIColor.blackColor().CGColor

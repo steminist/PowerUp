@@ -17,7 +17,7 @@ class MapScreen: UIViewController {
         
         // Back Button of navigation controller hidden
         self.navigationItem.setHidesBackButton(true, animated:true);
-
+        self.navigationItem.title = "Power Up Journey";
         // setting the orientation to portrait
         let value = UIInterfaceOrientation.Portrait.rawValue
         UIDevice.currentDevice().setValue(value, forKey: "orientation")
